@@ -11,7 +11,7 @@ class app:
 		#main heading 
 		print(pf.figlet_format("MOVIES \nAND\nTV SERIES", font="small"))
 		#load api key
-		with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Api_omdb.txt",encoding="utf-8") as f:
+		with open(r"Api_omdb.txt",encoding="utf-8") as f:
 			self.api_key = f.read()
 			
 	#For getting Request     
@@ -82,7 +82,7 @@ class app:
 	def chk_locol(self, data):
 		
 		if data["Type"] == "movie":
-			with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Movies.csv",encoding="utf-8") as f:
+			with open(r"Movies.csv",encoding="utf-8") as f:
 				movie_reader = csv.reader(f)
 				next(movie_reader)
 				m_list = list(movie_reader)
@@ -102,19 +102,19 @@ class app:
 		elif data["Type"] == "series":
 			mx_list = []
 			#anime
-			with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Anime.csv",encoding="utf-8") as f:
+			with open(r"Anime.csv",encoding="utf-8") as f:
 				read = csv.reader(f)
 				next(read)
 				mx_list.extend(list(read))
 				
 			#ott
-			with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Webseries.csv",encoding="utf-8") as f:
+			with open(r"Webseries.csv",encoding="utf-8") as f:
 				read = csv.reader(f)
 				next(read)
 				mx_list.extend(list(read))
 				
 			#k drama 
-			with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\K_drama.csv",encoding="utf-8") as f:
+			with open(r"K_drama.csv",encoding="utf-8") as f:
 				read = csv.reader(f)
 				next(read)
 				mx_list.extend(list(read))
@@ -176,7 +176,7 @@ class app:
 
 #For Movies 
 	def movie_sugg(self):
-		with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Movies.csv",encoding="utf-8") as f:
+		with open(r"Movies.csv",encoding="utf-8") as f:
 			movie_reader=csv.reader(f)
 			next(movie_reader)
 			self.movie_list = list(movie_reader)
@@ -213,7 +213,7 @@ class app:
 
 #For Web series 
 	def ott_sugg(self):
-		with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Webseries.csv",encoding="utf-8") as f:
+		with open(r"Webseries.csv",encoding="utf-8") as f:
 			ott_reader = csv.reader(f)
 			next(ott_reader)
 			self.web_list = list(ott_reader)
@@ -248,7 +248,7 @@ class app:
 			
 #For Anime 
 	def anime_sugg(self):
-		with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\Anime.csv",encoding="utf-8") as f:
+		with open(r"Anime.csv",encoding="utf-8") as f:
 			anime_reader = csv.reader(f)
 			next(anime_reader)
 			self.anime_list = list(anime_reader)
@@ -285,7 +285,7 @@ class app:
 			
 #For K drama        
 	def kdrama_sugg(self):
-		with open(r"C:\Users\vaibhav chopra\Desktop\codes\Python_projects\Moive Suggestion System\K_drama.csv",encoding="utf-8") as f:
+		with open(r"K_drama.csv",encoding="utf-8") as f:
 			kdm_reader = csv.reader(f)
 			next(kdm_reader)
 			self.kdm_list = list(kdm_reader)
