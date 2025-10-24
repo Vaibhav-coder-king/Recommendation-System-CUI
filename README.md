@@ -30,7 +30,15 @@ A **Python-based Movie and TV Series Recommendation System** that allows users t
 
 ## 🧾 Example Output
 
+<img width="1550" height="818" alt="Screenshot 2025-10-24 165008" src="https://github.com/user-attachments/assets/a6a7d8af-8b5a-46ee-a68d-6647b493e3c4" />
 
+<img width="862" height="686" alt="Screenshot 2025-10-24 165025" src="https://github.com/user-attachments/assets/ce16e7d5-1bca-44b1-a597-33b026f76e45" />
+
+<img width="1830" height="651" alt="Screenshot 2025-10-24 165045" src="https://github.com/user-attachments/assets/92a77d3a-199a-4553-976d-cf59b1756e98" />
+
+<img width="1662" height="643" alt="Screenshot 2025-10-24 165104" src="https://github.com/user-attachments/assets/9d218866-fe05-4810-9649-ef5cb3651186" />
+
+<img width="1685" height="572" alt="Screenshot 2025-10-24 165144" src="https://github.com/user-attachments/assets/04edc178-58e0-4190-964d-24eff94f1976" />
 
 ## 🗂️ Project Structure
 
