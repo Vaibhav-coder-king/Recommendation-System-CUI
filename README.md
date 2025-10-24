@@ -69,3 +69,4 @@ Title	  Year	  Platform  	Genre	  Language   	Episodes  	Rating
 This project is open source and available under the MIT License.
 
 ## 🧑‍💻 Author
+Made BY [Vaibhav-coder-king](https://github.com/Vaibhav-coder-king)
