@@ -1,1 +1,2 @@
-41788edd
+add your api key here 
+get it from the https://www.omdbapi.com/apikey.aspx
