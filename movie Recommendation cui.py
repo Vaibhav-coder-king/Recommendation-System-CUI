@@ -44,7 +44,7 @@ class app:
 		
 	#for seach by name
 	def search_by_name(self):
-		self.nam_e = input("Enter the Name:").replace(" ","_")  #as with space it shows error 
+		self.nam_e = input("Enter the Name:").replace(" ","+")  #as with space it shows error 
 		self.url = f"http://www.omdbapi.com/?t=\"{self.nam_e}\"&apikey={self.api_key}"
 		
 		try:
